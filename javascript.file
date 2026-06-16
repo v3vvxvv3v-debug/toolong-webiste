@@ -1,0 +1,36 @@
+const items = [
+    {
+        name: "Scientific Calculator",
+        category: "Equipment",
+        price: 50
+    },
+    {
+        name: "Laptop",
+        category: "Equipment",
+        price: 300
+    },
+    {
+        name: "Engineering Drawing Set",
+        category: "Materials",
+        price: 80
+    }
+];
+
+function displayItems() {
+    const container = document.getElementById("itemList");
+
+    items.forEach(item => {
+        container.innerHTML += `
+            <div class="card">
+                <h3>${item.name}</h3>
+                <p>${item.category}</p>
+                <p>₱${item.price}/day</p>
+                <button onclick="rentItem('${item.name}')">
+                    Rent Now
+                </button>
+            </div>
+        `;
+    });
+}
+
+displayItems();
