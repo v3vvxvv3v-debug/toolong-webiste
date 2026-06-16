@@ -1,0 +1,73 @@
+```css
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.logo {
+    width: 180px;
+}
+
+h1 {
+    color: #0b4f8a;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    color: #555;
+    font-style: italic;
+}
+
+.hero {
+    background: #0b4f8a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: white;
+    color: #0b4f8a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #0b4f8a;
+    color: white;
+    padding: 20px;
+}
+```
